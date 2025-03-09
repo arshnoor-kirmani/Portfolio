@@ -1,0 +1,280 @@
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10% 5%;
+  }
+  main {
+    margin: 0;
+  }
+  header div.title h1 {
+    font-size: 1.4rem;
+  }
+  .h1Title {
+    font-size: 1.3rem;
+  }
+  /* ============================================= */
+  div.myInfo-container {
+    height: 6.5rem;
+    padding: 5% 4%;
+  }
+  div.myInfo-container.showInfo {
+    grid-template-rows: 6rem 14rem 1.5rem;
+    gap: 2.7%;
+  }
+  div.myInfo-container div.top-container {
+    height: 4rem;
+    width: 100%;
+    gap: 5%;
+    grid-template-columns: 20% 70%;
+  }
+  div.myInfo-container.showInfo div.top-container {
+    height: 6rem;
+  }
+  div.myInfo-container.showInfo div.top-container > div.side-box {
+    height: 90%;
+  }
+  div.top-container > div.side-box {
+    grid-template-rows: 55% auto;
+  }
+  div.top-container > div.side-box h1 {
+    font-size: 1.5rem;
+  }
+  div.myInfo-container div.side-box button {
+    width: 40%;
+    height: 60%;
+    color: var(--light-gray-70);
+    background: transparent;
+  }
+  button.show-conatacts {
+    width: 17%;
+    height: 1.5rem;
+    padding: 0;
+  }
+  button.show-conatacts span.text {
+    display: none;
+  }
+  button.show-conatacts span.icon {
+    display: inline;
+    position: relative;
+    top: -5%;
+    right: 0%;
+  }
+  button.show-conatacts span.icon svg {
+    fill: var(--orange-yellow-crayola);
+    width: 30%;
+    aspect-ratio: 1 / 1;
+  }
+
+  /* =============================== */
+  div.myInfo-container.showInfo {
+    height: 25rem;
+  }
+  /* ==================================================================================== */
+  div.myInfo-container div.information {
+    grid-template-columns: auto;
+    padding-bottom: 5%;
+  }
+  a.information-box {
+    grid-template-columns: 15% 80%;
+    gap: 3%;
+  }
+  a.information-box div.icons-box {
+    margin: 8%;
+    border-radius: 0.8rem;
+  }
+  a.information-box > div.side-box span {
+    font-size: 0.9rem;
+  }
+  a.information-box div.icons-box svg {
+    width: 50%;
+  }
+  div.socal-media-icons svg {
+    width: 85%;
+  }
+  /* ======================================================================== */
+  div.socal-media-icons > ul {
+    width: 45%;
+  }
+  /* ======================================================================== */
+
+  div.slider-container {
+    gap: 3%;
+    margin-top: 1.3rem;
+    grid-template-rows: 6% auto;
+    gap: 1%;
+  }
+  /* ======================================================================== */
+  div.slider-container header nav {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    right: 5%;
+    width: 90%;
+    height: 5%;
+    background: hsla(240, 1%, 17%, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--jet);
+    border-radius: 12px 12px 0 0;
+    box-shadow: var(--shadow-2);
+    z-index: 5;
+  }
+  div.slider-container header nav ul li button {
+    font-size: 0.85rem;
+  }
+  /* ======================================================================== */
+  div.slider-container#about {
+    height: 58rem;
+  }
+  main.show {
+    gap: 1%;
+    grid-template-rows: 50% 31% 17%;
+  }
+  header div.title {
+    width: 100%;
+  }
+  header div.title h1 {
+    width: 100%;
+  }
+  header div.title span {
+    width: 15%;
+    height: 5%;
+  }
+  main div.subTitle {
+    height: 100%;
+    display: grid;
+    gap: 1%;
+  }
+  main div.subTitle p {
+    font-size: 0.8rem;
+  }
+  /* ============== */
+  main div.devlopent-stream {
+    display: grid;
+    gap: 1%;
+    grid-template-rows: 19% 80%;
+    margin: 0;
+  }
+  /* ============= */
+  main div.devlopent-stream > div.box {
+    grid-template-columns: auto;
+    gap: 7%;
+    height: 100%;
+  }
+  div.stream-subTitle p {
+    font-size: 0.8rem;
+  }
+  /* ====================================================== */
+  div.skill div.slider {
+    height: 100%;
+  }
+  div.skill ul {
+    height: 96%;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 55%);
+    gap: 0;
+  }
+  div.skill ul li span {
+    font-size: 0.7rem;
+  }
+  div.skill ul li {
+    gap: 0;
+  }
+  div.skill ul svg {
+    width: 80%;
+    height: 60%;
+  }
+  /* ===================================================================== */
+  /* ===================================================================== */
+  /* ===================================================================== */
+  div.slider-container#resume {
+    height: 39.5rem;
+    grid-template-rows: 9% auto;
+  }
+  main.show#resume {
+    grid-template-rows: auto;
+  }
+  div.education-container div.hadding {
+    grid-template-columns: 13% 80%;
+    gap: 2%;
+  }
+  div.education-container div.hadding h1 {
+    font-size: 1.4rem;
+  }
+  div.education-container div.hadding div.icon {
+    margin: 0;
+    border-radius: 0.9rem;
+  }
+  div.education-container div.hadding div.icon svg {
+    width: 80%;
+  }
+  main div.education-info ul {
+    margin-left: 10%;
+  }
+  main div.education-info ul li {
+    padding: 4%;
+  }
+  main div.education-info ul li::after {
+    left: -5.5%;
+    width: 4%;
+  }
+  main div.education-info ul li:first-child:before {
+    width: 3px;
+    top: -38%;
+    left: -4.5%;
+  }
+  main div.education-info ul li div.box h3 {
+    font-size: 1rem;
+  }
+  main div.education-info ul li div.box span {
+    font-size: 0.8rem;
+  }
+  button.resume-downlodeBtn {
+    width: 40%;
+    font-size: 0.9rem;
+    padding: 3%;
+  }
+  /* ===================================================================== */
+  /* ===================================================================== */
+  /* ===================================================================== */
+  div.slider-container#projects {
+    height: 113rem;
+    grid-template-rows: 3% auto;
+    gap: 0.5%;
+  }
+  div.slider-container#projects main#projects {
+    gap: 1%;
+    grid-template-rows: 3% 90%;
+  }
+  main#projects nav ul {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  div.project-container {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(9, 20rem);
+    gap: 1%;
+  }
+  div.project-box {
+    height: 20rem;
+  }
+  /* ===================================================================== */
+  /* ===================================================================== */
+  /* ===================================================================== */
+  div.slider-container#contacts {
+    height: 45rem;
+  }
+  div.slider-container#contacts main#contacts {
+    grid-template-rows: 33% 65%;
+  }
+  form div.first {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: unset;
+  }
+  form div.btn button {
+    width: 100%;
+    padding: 0 30%;
+  }
+}
+@media screen and (min-width: 900px) {
+}
