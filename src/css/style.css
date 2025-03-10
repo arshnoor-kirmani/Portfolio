@@ -330,6 +330,7 @@ div.skill ul {
   padding: 2%;
 }
 div.skill ul li {
+  cursor: help;
   width: 100%;
   background-color: var(--bg-gradient-onyx);
   border-radius: 1.5rem;
